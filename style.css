@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(252, 219, 7);
+    color: blue;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+h3 {
+    color: blue;
+}
+
+li {
+    list-style: none;
+}
+
+footer {
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    padding:  0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
